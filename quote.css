@@ -1,6 +1,6 @@
 :root {
   --minWidthVal: 400px;
-  --minHeightVal: 600px; 
+  --minHeightVal: 700px; 
 }
 
 .image {
@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-blend-mode: overlay;
   background-color: rgba(138, 43, 226, 0.7);
+  min-height: var(--minHeightVal);
   justify-content: center;
   align-items: center;
   display: flex;
