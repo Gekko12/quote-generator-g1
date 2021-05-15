@@ -1,12 +1,12 @@
 :root {
-  --minWidthVal: 300px;
-  --minHeightVal: 824px; 
+  --minWidthVal: 240px;
+  --minHeightVal: 1366px; 
 }
 
 .image {
   background-image: url("images/backImg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size:cover;
+  background-repeat:no-repeat;
   background-blend-mode: overlay;
   background-color: rgba(138, 43, 226, 0.7);
   justify-content: center;
@@ -15,10 +15,10 @@
 }
 
 .container {
-  width: max-content;
+  /* width: max-content; */
   min-width: var(--minWidthVal);
   min-height: var(--minHeightVal);
-  height: max-content;
+  /* height: 100%; */
 }
 
 .heading {
@@ -102,6 +102,6 @@
   }
   .butt {
     font-size: 20px;
-    padding: 4px 44px 4px 44px;
+    padding: 4px 28px 4px 28px;
   }
 }
