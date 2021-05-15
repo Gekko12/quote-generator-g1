@@ -1,6 +1,6 @@
 :root {
   --minWidthVal: 300px;
-  --minHeightVal: 736px; 
+  --minHeightVal: 824px; 
 }
 
 .image {
@@ -19,8 +19,6 @@
   min-width: var(--minWidthVal);
   min-height: var(--minHeightVal);
   height: max-content;
-  justify-content: center;
-  align-items: center;
 }
 
 .heading {
@@ -87,9 +85,6 @@
 }
 
 @media (max-width: 777px) {
-  /* .container {
-    min-height: var(--minHeightVal);
-  } */
   .heading {
     font-size: 40px;
     font-weight: 900;
