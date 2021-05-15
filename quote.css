@@ -1,6 +1,6 @@
 :root {
   --minWidthVal: 360px;
-  --minHeightVal: 640px; 
+  --minHeightVal: 700px; 
 }
 
 .image {
@@ -16,10 +16,10 @@
 }
 
 .container {
-  width:max-content;
+  width:auto;
   min-width: var(--minWidthVal);
   min-height: var(--minHeightVal);
-  height: max-content;
+  height: 100%;
 }
 
 .heading {
@@ -85,7 +85,7 @@
   transform: scale3d(0.5);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 777px) {
   .heading {
     font-size: 40px;
     font-weight: 900;
