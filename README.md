@@ -1,5 +1,5 @@
 # quote-generator-g1
 
-This is a quote generator that uses a API from https://github.com/lukePeavey/quotable
-to generate a random quote.
-- made by Gaurav Sharma
+You can preview the website by the given link :-
+https://gekko12.github.io/quote-generator-g1/
+
